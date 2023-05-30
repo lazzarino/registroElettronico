@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(135deg, #faff66 0, #e0f967 12.5%, #c6f169 25%, #abe56b 37.5%, #90d86c 50%, #76ca6d 62.5%, #5ebe6e 75%, #47b370 87.5%, #2daa73 100%);
+}
+
+#wrapper{
+    background-image: radial-gradient(circle at 7.2% 53.74%, #b8f0cd 0, #b2f1d3 8.33%, #adf2d9 16.67%, #a8f2e0 25%, #a3f2e6 33.33%, #a0f2ec 41.67%, #9df2f2 50%, #9cf2f8 58.33%, #9bf1fd 66.67%, #9cf0ff 75%, #9fefff 83.33%, #a2eeff 91.67%, #a7edff 100%);    max-width: 500px;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10%;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#title{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.btn-primary{
+    border-radius:4px;
+    border:none;
+    background-color:lightgreen;
+    box-shadow:0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset, 0px -0.4em 0px 0px rgba(34, 36, 38, 0.15) inset;
+    margin-bottom: 20px;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{
+background-color:rgba(13, 189, 39, 0.904) !important;
+box-shadow:none;
+}
+
+#linkPassDim{
+    float:right;
+}
+#lblErrore strong{
+    margin-right:150px;
+}
+@media  screen and (max-device-width:482px) {
+    #lblErrore strong{
+        margin-right: 100px;
+    }
+}
+@media  screen and (max-device-width:434px) {
+    #lblErrore strong{
+        margin-right: 50px;
+    }
+}
+@media  screen and (max-device-width:382px) {
+    #lblErrore strong{
+        margin-right: 5px;
+        font-size: 10pt;
+    }
+}
+@media  screen and (max-device-width:302px) {
+    #lblErrore strong{
+        font-size: 8pt;
+    }
+}

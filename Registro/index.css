@@ -1,0 +1,253 @@
+html,body{
+    /*height: 100%;
+}
+body{
+    /*background-image: linear-gradient(135deg, #faff66 0, #e0f967 12.5%, #c6f169 25%, #abe56b 37.5%, #90d86c 50%, #76ca6d 62.5%, #5ebe6e 75%, #47b370 87.5%, #2daa73 100%);*/
+    background-color: #c6f169;
+}
+
+/*NAVBAR*/
+nav{
+    background-color: rgb(2, 196, 2);
+    color:#FFF !important
+}
+.navbar-brand{
+    font-weight: bold;
+}
+#imgUser{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#wrapUtente{
+    margin-right: 30px;
+    display: inline-block;
+    background: none;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+}
+#wrapUtente:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+#lblNome{
+    font-weight: bold;
+}
+nav .dropdown-menu{
+    background-color: rgb(255,255,255);
+}
+nav .dropdown-menu li:hover{
+    background-color: black !important;
+}
+/*WRAPPER MAIN*/
+#home-assenze{
+    background-color:rgb(157, 22, 230);
+}
+.image-home{
+    width: 60px;
+    height:60px;
+    margin:0 auto;
+    display: inline-block;
+    margin-right:30px;
+}
+.bi-arrow-right{
+    display: block;
+    float:right;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+.home-button{
+    height:110px;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    padding-top: 22px;
+    font-size: 20pt;
+    margin-top: 40px;
+}
+.home-button:hover{
+    cursor:pointer;
+}
+
+#home-registro{
+    background-color:rgb(100, 100, 255);
+}
+
+#home-voti{
+    background-color:rgb(73, 60, 219);
+}
+
+#home-media{
+    margin-top: 40px;
+    height: 110px;
+    background-color: darkgreen;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+#home-data{
+    margin-top: 30px;
+    background-color: rgb(252, 166, 7);
+    color:white;
+    border-radius: 10px;
+    padding: 20px;
+}
+#lstAvvenimenti{
+    width: 40%;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+#lstAvvenimenti li{
+    background-color:rgb(202, 255, 255);
+}
+#lstAvvenimenti li div div{
+    font-size: 15pt;
+}
+#lstAvvenimenti li div{
+    margin-right: 0 !important;
+}
+
+/*WRAPPER VOTI*/
+#voti-inputGroupLstMaterie{
+    width:70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#voti-tableVoti_wrapper{
+    background-color: #EEE;
+    margin: 30px;
+    padding:10px;
+    border:1px solid #AAA;
+    border-radius:10px;
+}
+#voti-graficoVoti{
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#voti-btnIndietro{
+    margin-top: 20px;
+    margin-left:30px
+}
+/*WRAPPER ASSENZE*/
+#assenze-btnIndietro
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: block;
+}
+#wrapperAssenze .card:nth-of-type(1){
+    width: 200px;
+    background-color: rgb(22, 97, 141);
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 24%;
+    margin-right: 220px;
+    margin-bottom: 40px;
+}
+#assenze-lblNAssenze{
+    font-size: 18pt;  
+}
+#wrapperAssenze .card:nth-of-type(2){
+    width: 350px;
+    background-color: #FCC;
+    color: red;
+    font-weight: bold;
+    font-size: 14pt;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+#assenze-lblNAssenzeNonGiustificate{
+    font-size: 18pt;
+}
+.wrapperTable{
+    padding: 20px;
+    width:96%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: #EEE;
+}
+#btnGiustifica{
+    margin-left: 50px;
+}
+/*Sezione registro*/
+#wrapperRegistro .input-group{
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#registro-dateRegistro{
+    width: 45px;
+    flex:none;
+}
+#registro-btnIndietro{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: block;
+}
+/*sezione profilo*/
+#wrapperProfilo{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+}
+#wrapperProfilo .card-img-top{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: none;
+}
+#btnCaricaImmagineProfilo{
+    display: none;
+}
+#wrapperProfilo .card-img-top:hover{
+    opacity: 0.4;
+}
+#wrapperProfilo .card-img-top:hover #btnCaricaImmagineProfilo{
+    display: inline;
+}
+#profilo-btnModificaIndirizzo
+{
+    margin-top: 10px;
+}
+#profilo-btnIndietro{
+    float: right;
+    font-size: 16pt;
+    border:none;
+    background-color: white;
+
+}
+/*sezione cambio password*/
+#wrapperCambioPassword{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 40px;
+}
+#cambioPassword-btnIndietro{
+    float: right;
+    font-size: 16pt;
+    border:none;
+    background-color: white;
+}
+#wrapperCambioPassword .input-group{
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+#cambioPassword-btnSalva{
+    margin-top: 50px;
+}
+
